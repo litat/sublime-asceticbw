@@ -16,16 +16,22 @@ Released under the MIT License <http://opensource.org/licenses/MIT>
   <key>settings</key>
   <array>
     <dict>
+      <!-- Solarized theme color tuning
+      light background = #f9f9f9, #efefef (with dark  content)
+      dark  background = #333333, #424242 (with light content)
+      dark  content = #b5b5b5, #a9a9a9, #868686, #424242, #333333
+      light content = #868686, #929292, #b5b5b5, #efefef, #f9f9f9
+       -->
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#FFFFFF</string>
+        <string>#f9f9f9</string>
         <key>caret</key>
-        <string>#202020</string>
+        <string>#424242</string>
         <key>foreground</key>
-        <string>#000000</string>
+        <string>#424242</string>
         <key>selection</key>
-        <string>#eeeeee</string>
+        <string>#efefef</string>
       </dict>
     </dict>
     <dict>
@@ -36,7 +42,7 @@ Released under the MIT License <http://opensource.org/licenses/MIT>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#B0B0B0</string>
+        <string>#b5b5b5</string>
       </dict>
     </dict>
     <dict>
@@ -47,18 +53,18 @@ Released under the MIT License <http://opensource.org/licenses/MIT>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#909090</string>
+        <string>#a9a9a9</string>
       </dict>
     </dict>
     <dict>
       <key>name</key>
       <string>Number</string>
       <key>scope</key>
-      <string>constant.numeric</string>
+      <string>constant</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#707070</string>
+        <string>#868686</string>
       </dict>
     </dict>
     <dict>
@@ -69,7 +75,7 @@ Released under the MIT License <http://opensource.org/licenses/MIT>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#707070</string>
+        <string>#868686</string>
       </dict>
     </dict>
     <dict>
@@ -82,7 +88,7 @@ Released under the MIT License <http://opensource.org/licenses/MIT>
         <key>fontStyle</key>
         <string>bold</string>
         <key>foreground</key>
-        <string>#202020</string>
+        <string>#333333</string>
       </dict>
     </dict>
     <dict>
@@ -94,6 +100,8 @@ Released under the MIT License <http://opensource.org/licenses/MIT>
       <dict>
         <key>fontStyle</key>
         <string>italic</string>
+        <key>foreground</key>
+        <string>#868686</string>
       </dict>
     </dict>
     <dict>
@@ -106,7 +114,17 @@ Released under the MIT License <http://opensource.org/licenses/MIT>
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#b0b0b0</string>
+        <string>#a9a9a9</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>invalid</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#D02000</string>
       </dict>
     </dict>
 
