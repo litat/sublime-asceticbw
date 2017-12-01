@@ -1,14 +1,6 @@
-Ascetic Black / Ascetic White
+Sublime Text color schemes without colors
 =======
 
-Ultra minimalistic color schemes for Sublime Text 2 or TextMate.
+Ultra minimalistic color schemes for Sublime Text
 
-Dedicated to all syntax highlightning haters. The only highlighted things there are comments and strings/numbers.
-
-
-
-
-![White](https://raw.github.com/Mendor/sublime-asceticbw/master/white.png)
-
-![Black](https://raw.github.com/Mendor/sublime-asceticbw/master/black.png)
-
+Dedicated to who are tired of syntax highlightning. There will be black and white only.

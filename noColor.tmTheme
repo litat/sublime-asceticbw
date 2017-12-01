@@ -117,6 +117,17 @@ Released under the MIT License <http://opensource.org/licenses/MIT>
         <string>#a9a9a9</string>
       </dict>
     </dict>
+    <dict>
+      <key>name</key>
+      <string>Functions</string>
+      <key>scope</key>
+      <string>variable.function</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#868686</string>
+      </dict>
+    </dict>
 
     <dict>
       <key>scope</key>
